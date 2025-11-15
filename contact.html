@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Contact – The Eastern Blog</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Contact The Eastern Blog with suggestions, corrections or contributions.">
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container site-header__inner">
+      <a href="/" class="site-logo">
+        <img src="/assets/img/logo.svg" alt="The Eastern Blog logo">
+        <span>The Eastern Blog</span>
+      </a>
+      <nav class="nav-main" aria-label="Main navigation">
+        <div class="nav-main__group">
+          <button class="nav-main__trigger" data-nav-trigger="sights">Sights</button>
+          <div class="nav-dropdown" data-nav-dropdown="sights">
+            <h4>Categories</h4>
+            <ul>
+              <li><a href="/sights.html?category=mosaics">Mosaics</a></li>
+              <li><a href="/sights.html?category=monuments">Monuments</a></li>
+              <li><a href="/sights.html?category=architecture">Architecture</a></li>
+              <li><a href="/sights.html?category=palaces-of-culture">Palaces of culture</a></li>
+              <li><a href="/sights.html?category=bus-stops">Bus stops</a></li>
+              <li><a href="/sights.html?category=infrastructure">Infrastructure</a></li>
+              <li><a href="/sights.html?category=museums">Museums</a></li>
+              <li><a href="/sights.html?category=ornaments">Ornaments</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="nav-main__group">
+          <button class="nav-main__trigger" data-nav-trigger="countries">Countries</button>
+          <div class="nav-dropdown" data-nav-dropdown="countries">
+            <h4>Europe</h4>
+            <ul>
+              <li><a href="/country-detail.html?slug=moldova">Moldova</a></li>
+              <li><a href="/country-detail.html?slug=east-germany">Germany</a></li>
+              <li><a href="/country-detail.html?slug=estonia">Estonia</a></li>
+            </ul>
+            <h4>Asia</h4>
+            <ul>
+              <li><a href="/country-detail.html?slug=georgia">Georgia</a></li>
+              <li><a href="/country-detail.html?slug=vietnam">Vietnam</a></li>
+            </ul>
+            <h4>Americas</h4>
+            <ul>
+              <li><a href="/country-detail.html?slug=cuba">Cuba</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <a href="/about.html">About</a>
+        <a href="/contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="section">
+    <div class="container">
+      <header style="margin-bottom:1.5rem;">
+        <h1>Contact</h1>
+        <p>Questions, corrections or contributions are welcome. Use the form or reach out via social media.</p>
+      </header>
+
+      <div class="columns columns--2">
+        <section>
+          <h2>Get in touch</h2>
+          <p>You can share new locations, corrections, historical background or your own photography.</p>
+          <p>Please include as many details as possible if you suggest a new sight: country, city, address and a short description.</p>
+
+          <section style="margin-top:2rem;">
+            <h2>Ways to contribute</h2>
+            <div class="grid grid--3" style="margin-top:1rem;">
+              <div class="info-block">
+                <h3>Site suggestions</h3>
+                <p>Send in missing mosaics, monuments or buildings.</p>
+              </div>
+              <div class="info-block">
+                <h3>Historical information</h3>
+                <p>Share stories, dates or names that add context.</p>
+              </div>
+              <div class="info-block">
+                <h3>Photography</h3>
+                <p>Contribute your own photos with proper credit.</p>
+              </div>
+            </div>
+          </section>
+        </section>
+
+        <section>
+          <h2>Contact form</h2>
+          <form class="form" method="post" action="/contact-submit">
+            <div class="form__row">
+              <label for="name">Name *</label>
+              <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form__row">
+              <label for="email">Email address *</label>
+              <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form__row">
+              <label for="subject">Subject *</label>
+              <input type="text" id="subject" name="subject" required>
+            </div>
+            <div class="form__row">
+              <label for="message">Message *</label>
+              <textarea id="message" name="message" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send message</button>
+          </form>
+        </section>
+      </div>
+    </div>
+  </main>
+  <footer class="site-footer">
+    <div class="container site-footer__inner">
+      <div>
+        <p>The Eastern Blog – Exploring Soviet-era heritage across Eastern Europe and beyond</p>
+        <small>© 2025 The Eastern Blog</small>
+      </div>
+      <div>
+        <a href="https://instagram.com/theeasternblog" target="_blank" rel="noopener">Instagram</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="/assets/js/main.js"></script>
+  <script src="/assets/js/lightbox.js"></script>
+  <script src="/assets/js/filters.js"></script>
+</body>
+</html>
