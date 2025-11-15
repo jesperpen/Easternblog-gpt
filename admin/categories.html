@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Admin – Categories | The Eastern Blog</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="/assets/css/main.css">
+</head>
+<body>
+  <div class="admin-wrapper">
+    <header class="admin-header">
+      <div class="container admin-header__inner">
+        <div>
+          <div class="admin-title">Admin Panel</div>
+          <nav class="admin-tabs">
+            <a href="/admin/index.html">Sights</a>
+            <a href="/admin/countries.html">Countries</a>
+            <a href="/admin/categories.html" class="active">Categories</a>
+            <a href="/admin/pages-seo.html">Pages SEO</a>
+            <a href="/admin/settings.html">Settings</a>
+            <a href="/admin/seo-tools.html">SEO tools</a>
+          </nav>
+        </div>
+        <button class="btn btn-ghost">Sign out</button>
+      </div>
+    </header>
+    <main class="admin-main">
+      <div class="container">
+
+        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:1rem;">
+          <h1>Categories</h1>
+          <button class="btn btn-primary">Add category</button>
+        </div>
+
+        <div class="admin-list">
+          <article class="admin-card">
+            <div class="admin-card__top">
+              <div>
+                <strong>Mosaics</strong><br>
+                <small>Sort order: 1</small>
+              </div>
+              <span class="badge-status badge-status--published">Published</span>
+            </div>
+            <div class="admin-card__actions">
+              <button class="btn btn-ghost">Edit</button>
+              <button class="btn btn-ghost">Delete</button>
+            </div>
+          </article>
+        </div>
+      </div>
+    </main>
+  </div>
+  <script src="/assets/js/main.js"></script>
+</body>
+</html>
